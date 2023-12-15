@@ -1,0 +1,147 @@
+.button {
+    background-color: rgb(231, 19, 104);
+    color: rgb(245, 255, 255);
+    font-size: 24px;
+    -unity-font-style: bold;
+    bottom: 0;
+    top: 85%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    transition-duration: 200ms;
+    height: 100%;
+    width: 100%;
+    border-left-color: rgb(144, 10, 64);
+    border-right-color: rgb(144, 10, 64);
+    border-top-color: rgb(144, 10, 64);
+    border-bottom-color: rgb(144, 10, 64);
+    border-top-width: 0;
+    border-bottom-width: 8px;
+    -unity-font-definition: url('project://database/Assets/PAPOAS/Visual/AVENGEANCE_MIGHTIEST_AVENGER_RUS_0%20SDF.asset?fileID=11400000&guid=a7b835e05466785428b140c6c6521a01&type=2#AVENGEANCE_MIGHTIEST_AVENGER_RUS_0 SDF');
+}
+
+.button:hover {
+    height: 105%;
+    transition-duration: 200ms;
+    width: 105%;
+}
+
+.button:active {
+    background-color: rgb(120, 8, 255);
+    transition-duration: 50ms;
+}
+
+.label {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    -unity-font-style: bold;
+    -unity-text-align: upper-center;
+    -unity-font: url('project://database/Assets/PAPOAS/Visual/AVENGEANCE_MIGHTIEST_AVENGER_RUS_0.ttf?fileID=12800000&guid=dca2ca7babdc4704294167c2d0026e78&type=3#AVENGEANCE_MIGHTIEST_AVENGER_RUS_0');
+    -unity-font-definition: url('project://database/Assets/PAPOAS/Visual/AVENGEANCE_MIGHTIEST_AVENGER_RUS_0%20SDF.asset?fileID=11400000&guid=a7b835e05466785428b140c6c6521a01&type=2#AVENGEANCE_MIGHTIEST_AVENGER_RUS_0 SDF');
+}
+
+.infoLabel {
+    color: rgb(200, 200, 200);
+    -unity-font-style: bold;
+    font-size: 20px;
+    -unity-text-align: upper-center;
+    -unity-font: url('project://database/Assets/PAPOAS/Visual/AVENGEANCE_MIGHTIEST_AVENGER_RUS_0.ttf?fileID=12800000&guid=dca2ca7babdc4704294167c2d0026e78&type=3#AVENGEANCE_MIGHTIEST_AVENGER_RUS_0');
+    -unity-font-definition: url('project://database/Assets/PAPOAS/Visual/AVENGEANCE_MIGHTIEST_AVENGER_RUS_0%20SDF.asset?fileID=11400000&guid=a7b835e05466785428b140c6c6521a01&type=2#AVENGEANCE_MIGHTIEST_AVENGER_RUS_0 SDF');
+}
+
+.window {
+    background-color: rgb(26, 40, 79);
+    -unity-font-definition: url('project://database/Assets/PAPOAS/Visual/AVENGEANCE_MIGHTIEST_AVENGER_RUS_0%20SDF.asset?fileID=11400000&guid=a7b835e05466785428b140c6c6521a01&type=2#AVENGEANCE_MIGHTIEST_AVENGER_RUS_0 SDF');
+}
+
+.mainLabel {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    -unity-text-align: upper-center;
+    -unity-font: url('project://database/Assets/PAPOAS/Visual/AVENGEANCE_MIGHTIEST_AVENGER_RUS_0.ttf?fileID=12800000&guid=dca2ca7babdc4704294167c2d0026e78&type=3#AVENGEANCE_MIGHTIEST_AVENGER_RUS_0');
+    -unity-font-definition: url('project://database/Assets/PAPOAS/Visual/AVENGEANCE_MIGHTIEST_AVENGER_RUS_0%20SDF.asset?fileID=11400000&guid=a7b835e05466785428b140c6c6521a01&type=2#AVENGEANCE_MIGHTIEST_AVENGER_RUS_0 SDF');
+}
+
+.textfield {
+    justify-content: flex-start;
+    align-items: stretch;
+    align-self: stretch;
+    -unity-slice-left: 0;
+    margin-right: 12px;
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    border-top-width: 5px;
+    background-color: rgba(255, 255, 255, 0);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    -unity-text-outline-color: rgb(236, 50, 50);
+    visibility: visible;
+    display: flex;
+    transition-property: none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    font-size: 24px;
+    -unity-font-style: bold;
+    -unity-font: url('project://database/Assets/PAPOAS/Visual/AVENGEANCE_MIGHTIEST_AVENGER_RUS_0.ttf?fileID=12800000&guid=dca2ca7babdc4704294167c2d0026e78&type=3#AVENGEANCE_MIGHTIEST_AVENGER_RUS_0');
+    -unity-font-definition: url('project://database/Assets/PAPOAS/Visual/AVENGEANCE_MIGHTIEST_AVENGER_RUS_0%20SDF.asset?fileID=11400000&guid=a7b835e05466785428b140c6c6521a01&type=2#AVENGEANCE_MIGHTIEST_AVENGER_RUS_0 SDF');
+}
+
+.textfield #unity-text-input {
+    background-color: rgb(26, 40, 79);
+    border-top-width: 5px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-color: rgb(69, 86, 132);
+    border-bottom-color: rgb(69, 86, 132);
+    border-left-color: rgb(69, 86, 132);
+    border-right-color: rgb(69, 86, 132);
+    border-radius: 20px;
+    -unity-font: url('project://database/Assets/PAPOAS/Visual/AVENGEANCE_MIGHTIEST_AVENGER_RUS_0.ttf?fileID=12800000&guid=dca2ca7babdc4704294167c2d0026e78&type=3#AVENGEANCE_MIGHTIEST_AVENGER_RUS_0');
+    -unity-font-definition: url('project://database/Assets/PAPOAS/Visual/AVENGEANCE_MIGHTIEST_AVENGER_RUS_0%20SDF.asset?fileID=11400000&guid=a7b835e05466785428b140c6c6521a01&type=2#AVENGEANCE_MIGHTIEST_AVENGER_RUS_0 SDF');
+}
+
+.textfield #unity-text-input TextElement {
+    -unity-text-align: middle-center;
+    white-space: normal;
+}
+
+.textfield Label:enabled {
+    color: rgb(255, 255, 255);
+    -unity-font: url('project://database/Assets/PAPOAS/Visual/AVENGEANCE_MIGHTIEST_AVENGER_RUS_0.ttf?fileID=12800000&guid=dca2ca7babdc4704294167c2d0026e78&type=3#AVENGEANCE_MIGHTIEST_AVENGER_RUS_0');
+    -unity-font-style: normal;
+    -unity-font-definition: url('project://database/Assets/PAPOAS/Visual/AVENGEANCE_MIGHTIEST_AVENGER_RUS_0%20SDF.asset?fileID=11400000&guid=a7b835e05466785428b140c6c6521a01&type=2#AVENGEANCE_MIGHTIEST_AVENGER_RUS_0 SDF');
+}
+
+.dropfield {
+    font-size: 24px;
+    -unity-font-style: bold;
+    -unity-font-definition: url('project://database/Assets/PAPOAS/Visual/AVENGEANCE_MIGHTIEST_AVENGER_RUS_0%20SDF.asset?fileID=11400000&guid=a7b835e05466785428b140c6c6521a01&type=2#AVENGEANCE_MIGHTIEST_AVENGER_RUS_0 SDF');
+}
+
+.dropfield:active {
+    color: rgb(255, 255, 255);
+}
+
+.dropfield VisualElement {
+    background-color: rgb(26, 40, 79);
+    border-top-width: 5px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-color: rgb(69, 86, 132);
+    border-bottom-color: rgb(69, 86, 132);
+    border-left-color: rgb(69, 86, 132);
+    border-right-color: rgb(69, 86, 132);
+    border-radius: 20px;
+    -unity-font-definition: url('project://database/Assets/PAPOAS/Visual/AVENGEANCE_MIGHTIEST_AVENGER_RUS_0%20SDF.asset?fileID=11400000&guid=a7b835e05466785428b140c6c6521a01&type=2#AVENGEANCE_MIGHTIEST_AVENGER_RUS_0 SDF');
+}
+
+.dropfield Label:enabled {
+    color: rgb(255, 255, 255);
+}

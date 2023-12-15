@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\s-den\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\s-den\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_PAPOAS.782608084.00" t="ExcludeRecursive" />
+    <e p="C:\Users\s-den\PAPOAS" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="PAPOAS" t="Include">
+          <e p="Code" t="Include">
+            <e p="TaskData.cs" t="Include" />
+            <e p="UI.cs" t="Include" />
+            <e p="UserData.cs" t="Include" />
+          </e>
+          <e p="Scenes" t="Include" />
+          <e p="Visual" t="Include">
+            <e p="Background.uxml" t="Include" />
+            <e p="Client.uxml" t="Include" />
+            <e p="Detective.uxml" t="Include" />
+            <e p="Director.uxml" t="Include" />
+            <e p="Images" t="Include" />
+            <e p="Login.uxml" t="Include" />
+            <e p="Stylesheet.uss" t="Include" />
+          </e>
+        </e>
+        <e p="UI Toolkit" t="Include">
+          <e p="UnityThemes" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="PAPOAS.sln" t="IncludeFlat" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
